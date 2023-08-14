@@ -1,33 +1,33 @@
 //total preguntas del juego
 const TOTAL_PREGUNTAS = 5;
 //tiempo del juego
-const TIEMPO_DEL_JUEGO = 10;
+const TIEMPO_DEL_JUEGO = 60;
 //estructura para almacenar las preguntas
 const bd_juego = [
   {
       id:'A',
       pregunta:"COLOR DEL SOL",
-      respuesta:"a"
+      respuesta:"amarillo"
   },
   {
     id:'E',
-    pregunta:"Mezclar los datos para protegerlos como medida de seguridad, es decir, convertir texto normal a texto cifrado",
-    respuesta:"encriptar"
+    pregunta:"Donde vez tu reflejo",
+    respuesta:"espejo"
   },
   {
     id:'I',
-    pregunta:"Aspecto que presentan los programas tras su ejecución mediante el cual ejercemos la comunicación con éstos",
-    respuesta:"interfaz"
+    pregunta:"Tierra que esta en medio del mar",
+    respuesta:"isla"
   },
   {
     id:'O',
     pregunta:"Animal que vive en el bosque ",
-    respuesta:""
+    respuesta:"oso"
   },
   {
     id:'U',
-    pregunta:"Aspecto que presentan los programas tras su ejecución mediante el cual ejercemos la comunicación con éstos",
-    respuesta:"interfaz"
+    pregunta:"Fruta con la que se realiza los vinos",
+    respuesta:"uva"
   },
  
 ]
